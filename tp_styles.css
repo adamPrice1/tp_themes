@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Griffy&display=swap'); 
+@-webkit-keyframes slide {
+          from { background-position: 0 0; }
+          to { background-position: 0 800px; }
+        }
+        body {
+          background: gray url(https://cdn.shopify.com/s/files/1/1294/4527/files/PinClipart.com_scary-jack-o-lantern_4208768.png?1507) repeat 0 0;
+          width: 100%;
+          margin: 0;
+          box-sizing: border-box;
+          -webkit-animation: slide 20s linear infinite;
+          padding: 16px;
+          margin-top: 30px;
+          font-size: 14px;
+          font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+        }
+        h1, h2, h3, p, pre {
+          margin: 15px;
+        }
+        .comment {
+          margin-top: 7px;
+          word-wrap: break-word;
+          background-color:#fff6d9;
+          border-radius: 3px;
+          border: 1px solid #efdaa3;
+         
+   
+        }
+        .reply {
+          margin-top: 7px;
+          word-wrap: break-word;
+          background-color:#fff;
+          border: 1px solid #d8dcde;
+        }
+        img {
+          max-width: 100%;
+        }
+        .top-bar-aptp {
+          position:fixed;
+          left: 0px;
+          top: 10px;
+          width: 100%;
+          padding: 15px 0;
+          margin-top: -10px;
+          margin-bottom: 0;
+          overflow: hidden;
+          background-color:#f7f7f7;
+          border-bottom: 1px solid #e9ebed
+        }
+        a:link{
+          text-decoration: none;
+          color: #1f73b7;
+        }
+        a:visited {
+          text-decoration: none;
+        }
+        .ticket-preview-time {
+          float: right;
+        }
+        .ticket-preview-author {
+          visibility: hidden;
+          font-weight: bold;
+        }
+        .subhead {
+          margin-top: 30px;
+        }
+		.lRac {
+          background-color:#fff6d9;
+		}
+
+#background{
+  position:absolute;
+  width: 800px;
+  height: 400px;
+  animation-name: fall;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background:url(https://cdn.shopify.com/s/files/1/1294/4527/files/PinClipart.com_scary-jack-o-lantern_4208768.png?1507);
+  background-repeat: repeat;
+}
+@-webkit-keyframes fall {
+  from { background-position: 0 0; }
+  to { background-position: 0 800px; }
+}
+#witch{bottom:20%;
+   width: 800px;
+position:absolute;
+animation:reverse infinite;
+animation-name: run;
+animation-duration: 5s;
+}     
+@-webkit-keyframes run {
+    100%{ left: 110%;}
+    0% { left: -10%;}
+}
