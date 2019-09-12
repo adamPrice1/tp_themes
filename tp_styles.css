@@ -10,7 +10,6 @@
         }
         .comment {
           margin-top: 7px;
-          line-height: 18px;
           word-wrap: break-word;
           background-color:#fff6d9;
           border-radius: 3px;
@@ -18,7 +17,6 @@
         }
         .reply {
           margin-top: 7px;
-          line-height: 18px;
           word-wrap: break-word;
           background-color:#fff;
           border: 1px solid #d8dcde;
