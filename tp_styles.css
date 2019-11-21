@@ -1,55 +1,117 @@
-  body {
-          padding: 16px;
-          margin-top: 30px;
-          background-color:#fff;
-          font-size: 14px;
-          font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
-        }
-        h1, h2, h3, p, pre {
-          margin: 15px;
-        }
-        .comment {
-          margin-top: 7px;
-          word-wrap: break-word;
-          background-color:#fff6d9;
-          border-radius: 3px;
-          border: 1px solid #efdaa3;
-        }
-        .reply {
-          margin-top: 7px;
-          word-wrap: break-word;
-          background-color:#fff;
-          border: 1px solid #d8dcde;
-        }
-        img {
-          max-width: 100%;
-        }
-        .top-bar-aptp {
-          position:fixed;
-          left: 0px;
-          top: 10px;
-          width: 100%;
-          padding: 15px 0;
-          margin-top: -10px;
-          margin-bottom: 0;
-          overflow: hidden;
-          background-color:#f7f7f7;
-          border-bottom: 1px solid #e9ebed
-        }
-        a:link{
-          text-decoration: none;
-          color: #1f73b7;
-        }
-        a:visited {
-          text-decoration: none;
-        }
-        .ticket-preview-time {
-          float: right;
-        }
-        .ticket-preview-author {
-          visibility: hidden;
-          font-weight: bold;
-        }
-        .subhead {
-          margin-top: 30px;
-        }
+body {
+        padding: 16px;
+        margin-top: 30px;
+        background-color:#fff;
+        font-size: 14px;
+        font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+   animation-name: bfcm;
+animation-duration: 30s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+background: url(https://media.giphy.com/media/8cErjt07ezeXLeoNUw/giphy.gif);
+  background-size: 40px;
+background-repeat: repeat;
+background-color: #53F14E;
+opacity: 0.96;
+}
+@-webkit-keyframes bfcm {
+from { background-position: 0 0; }
+to { background-position:  800px; }
+      }
+
+      h1, h2, h3, p, pre {
+        margin: 15px;
+      }
+      .comment {
+        margin-top: 7px;
+        word-wrap: break-word;
+        background-color:#d9a4ff;
+        border-radius: 3px;
+        border: 1px solid #000000;
+      }
+      .reply {
+        margin-top: 7px;
+        word-wrap: break-word;
+        background-color:#fff;
+        border: 1px solid #000000;
+      }
+      img {
+        max-width: 100%;
+      }
+      .top-bar-aptp {
+        position:fixed;
+        left: 0px;
+        top: 10px;
+        width: 100%;
+        padding: 16px 0;
+        margin-top: -10px;
+        margin-bottom: 0;
+        overflow: hidden;
+        background: url(https://cdn.shopify.com/s/files/1/0021/5059/6630/files/BFCMTEENY.png?732) top center no-repeat;
+        background-color:black;
+        border-bottom: 1px solid #black;  font-size: 14px;
+
+}
+      a:link{
+        text-decoration: none;
+        color: #688ff4;
+      }
+      a:visited {
+        text-decoration: none;
+      }
+      .ticket-preview-time {
+        float: right;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+text-shadow:
+  -1px -1px 0 #000000,
+  1px -1px 0 #000000,
+  -1px 1px 0 #000000,
+  1px 1px 0 #000000;
+}
+.ticket-preview-author {
+visibility: hidden;
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-shadow:
+  -1px -1px 0 #000000,
+  1px -1px 0 #000000,
+  -1px 1px 0 #000000,
+  1px 1px 0 #000000;
+
+      }
+      .ticket-preview-author {
+        visibility: hidden;
+        font-weight: normal;
+      }
+      .subhead {
+        margin-top: 30px;
+      }
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey;
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:  #d9a4ff;
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #f2bce0;
+}
+
+::-webkit-scrollbar-track-piece {
+background: white;
+}
+
