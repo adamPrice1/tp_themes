@@ -8,9 +8,8 @@ body {
   animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/images.jpeg?8379);
-  background-repeat: repeat;
-  background-color: #380f6e;
+  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/nybody.jpg?v=1576538585);
+  color: white;
   opacity: 0.97;
 }
 
@@ -32,14 +31,16 @@ h1, h2, h3, p, pre {
   word-wrap: break-word;
   border-radius: 3px;
   border: 1px solid #efdaa3;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/preview-510120SGlZLDoiP-low_0005.jpg?8377);
+  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/nycomment.jpg?v=1576538619);
+  background-repeat: no-repeat;
+  background-size: 1100px 500px;
 }
 
 .reply {
   margin-top: 7px;
   word-wrap: break-word;
   border: 1px solid #d8dcde;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/2cb1df1bae64aa1fc7aaaab5c254e165.jpg?8378);
+  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/nyextra.jpg?v=1576539459);
 }
 
 img {
@@ -59,7 +60,7 @@ img {
   border: 3px solid white;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/images_1.jpeg?8380);
+  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/nyhead.jpg?v=1576538672);
 }
 
 .top-bar-aptp a:link {
@@ -68,7 +69,7 @@ img {
 
 a:link {
   text-decoration: none;
-  color: #5620e6;
+  color: cornflowerblue;
 }
 
 a:hover {
@@ -83,18 +84,16 @@ a:visited {
 .ticket-preview-time {
   font-family: "Comic Sans MS", cursive, sans-serif;
   float: right;
-  font-size: 26px;
-  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
-  color: #ffffff;
+  font-size: 32px;
+  color: white;
 }
 
 .ticket-preview-author {
   visibility: hidden;
   font-weight: bold;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 26px;
-  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
-  color: #ffffff;
+  font-size: 32px;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -112,14 +111,14 @@ a:visited {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FF3232;
+  background: grey;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: red;
+  background: black;
 }
 
 ::-webkit-scrollbar-track-piece {
-  background: black;
+  background: white;
 }
