@@ -1,125 +1,55 @@
-body {
-  padding: 16px;
-  margin-top: 30px;
-  background-color: #fff;
-  font-size: 16px;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
-  animation-name: fall;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/images.jpeg?8379);
-  background-repeat: repeat;
-  background-color: #380f6e;
-  opacity: 0.97;
-}
-
-@-webkit-keyframes fall {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 800px;
-  }
-}
-
-h1, h2, h3, p, pre {
-  margin: 15px;
-}
-
-.comment {
-  margin-top: 7px;
-  word-wrap: break-word;
-  border-radius: 3px;
-  border: 1px solid #efdaa3;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/preview-510120SGlZLDoiP-low_0005.jpg?8377);
-}
-
-.reply {
-  margin-top: 7px;
-  word-wrap: break-word;
-  border: 1px solid #d8dcde;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/2cb1df1bae64aa1fc7aaaab5c254e165.jpg?8378);
-}
-
-img {
-  max-width: 100%;
-}
-
-.top-bar-aptp {
-  position: fixed;
-  left: 0px;
-  top: 10px;
-  width: 100%;
-  padding: 15px 0;
-  margin-top: -10px;
-  margin-bottom: 0;
-  overflow: hidden;
-  background-color: red;
-  border: 3px solid white;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 20px;
-  background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/images_1.jpeg?8380);
-}
-
-.top-bar-aptp a:link {
-  color: white;
-}
-
-a:link {
-  text-decoration: none;
-  color: #5620e6;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #6c368f;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-.ticket-preview-time {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  float: right;
-  font-size: 26px;
-  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
-  color: #ffffff;
-}
-
-.ticket-preview-author {
-  visibility: hidden;
-  font-weight: bold;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 26px;
-  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.subhead {
-  margin-top: 30px;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #FF3232;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: red;
-}
-
-::-webkit-scrollbar-track-piece {
-  background: black;
-}
+  body {
+          padding: 16px;
+          margin-top: 30px;
+          background-color:#fff;
+          font-size: 14px;
+          font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+        }
+        h1, h2, h3, p, pre {
+          margin: 15px;
+        }
+        .comment {
+          margin-top: 7px;
+          word-wrap: break-word;
+          background-color:#fff6d9;
+          border-radius: 3px;
+          border: 1px solid #efdaa3;
+        }
+        .reply {
+          margin-top: 7px;
+          word-wrap: break-word;
+          background-color:#fff;
+          border: 1px solid #d8dcde;
+        }
+        img {
+          max-width: 100%;
+        }
+        .top-bar-aptp {
+          position:fixed;
+          left: 0px;
+          top: 10px;
+          width: 100%;
+          padding: 15px 0;
+          margin-top: -10px;
+          margin-bottom: 0;
+          overflow: hidden;
+          background-color:#f7f7f7;
+          border-bottom: 1px solid #e9ebed
+        }
+        a:link{
+          text-decoration: none;
+          color: #1f73b7;
+        }
+        a:visited {
+          text-decoration: none;
+        }
+        .ticket-preview-time {
+          float: right;
+        }
+        .ticket-preview-author {
+          visibility: hidden;
+          font-weight: bold;
+        }
+        .subhead {
+          margin-top: 30px;
+        }
