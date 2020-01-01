@@ -32,7 +32,7 @@ h1, h2, h3, p, pre {
   border-radius: 3px;
   border: 1px solid #efdaa3;
   background: url(https://cdn.shopify.com/s/files/1/1299/8107/files/nycomment.jpg?v=1576538619);
-  background-repeat: no-repeat;
+  background-repeat: auto;
   background-size: 1100px 500px;
 }
 
