@@ -1,4 +1,5 @@
-body {
+.invert{
+  body {
   padding: 16px;
   margin-top: 30px;
   background-color: #fff;
@@ -66,4 +67,6 @@ a:visited {
 
 .subhead {
   margin-top: 30px;
+}
+
 }
